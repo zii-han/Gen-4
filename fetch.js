@@ -1,5 +1,4 @@
-function load()
-  document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('murid-container');
 
     // Ambil data dari file JSON eksternal
@@ -30,4 +29,3 @@ function load()
         })
         .catch(error => console.error('Error loading data:', error));
 });
-}
